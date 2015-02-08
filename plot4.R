@@ -16,11 +16,12 @@ setwd("./ExData_Plotting1/")
 start.date <- as.Date("2007-02-01", "%Y-%m-%d")
 end.date <- as.Date("2007-02-02", "%Y-%m-%d")
 
-# Read the source household power consumption data
+# Read the source household power consumption data file, which was extracted to 
+# the ExData_Plotting1 directory
 power.consumption <- read.table("./household_power_consumption.txt", 
                                 header = TRUE, sep = ";", na.strings="?")
 
-# Create a Date/Time variable using the Date and Time variables
+# Add a Date/Time variable to the data.frame using the Date and Time variables
 power.consumption$dateTime <- strptime(paste(power.consumption$Date, 
                                              power.consumption$Time), 
                                        "%d/%m/%Y %H:%M:%S")
