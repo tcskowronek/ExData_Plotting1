@@ -9,9 +9,6 @@
 #   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
 
-# Set working directory to the forked/cloned repository
-setwd("./ExData_Plotting1/")
-
 # Define the date range for subsetting the raw data
 start.date <- as.Date("2007-02-01", "%Y-%m-%d")
 end.date <- as.Date("2007-02-02", "%Y-%m-%d")
