@@ -1,3 +1,14 @@
+# Coursera: John Hopkins University
+# Data Science Track Specialization
+# Course: Exploratory Data Analysis
+#
+# Author: Thomas Skowronek
+# Date: 02/07/2015
+#
+# Source data for the project:
+#   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+
+
 # Set working directory to the forked/cloned repository
 setwd("./ExData_Plotting1/")
 
