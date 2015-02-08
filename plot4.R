@@ -38,7 +38,7 @@ rm(power.consumption)
 png("./plot4.png", width = 480, height = 480, units = "px")
 par(mfrow = c(2, 2))
 with(power.subset, plot(dateTime, Global_active_power, type="l", xlab="", 
-                        ylab="Global Active Power (kilowatts)"))
+                        ylab="Global Active Power"))
 
 with(power.subset, plot(dateTime, Voltage, type="l", xlab="datetime", 
                         ylab="Voltage"))
